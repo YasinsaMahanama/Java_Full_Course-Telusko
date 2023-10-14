@@ -15,6 +15,8 @@ public class Main {
            }while (j <= 3);
            i++;
        }while (i <=4);
+
+       System.out.println("Bye " + i);
     }
 
 }
