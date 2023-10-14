@@ -15,6 +15,8 @@ public class Main {
            }
            i++;
        }
+
+      System.out.println("Bye " + i);
     }
 
 }
