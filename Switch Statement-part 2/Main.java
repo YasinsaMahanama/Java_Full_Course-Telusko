@@ -30,12 +30,20 @@ public class Main {
 //        }
 
 
+//        String result = "";
+//        result = switch(day)
+//        {
+//            case "Saturday","Sunday" -> "6.00am";
+//            case "Monday" -> "8.00am";
+//            default -> "7.00am";
+//        };
+
         String result = "";
         result = switch(day)
         {
-            case "Saturday","Sunday" -> "6.00am";
-            case "Monday" -> "8.00am";
-            default -> "7.00am";
+            case "Saturday","Sunday": yield "6.00am";
+            case "Monday": yield "8.00am";
+            default: yield "7.00am";
         };
 
         System.out.println(result);
