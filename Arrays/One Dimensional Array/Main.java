@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
         int num[] = {3,6,2,4};
         System.out.println(num[0]);
-        num[0] = 7;
+        num[0] = 7;                                               // assign new value for element in the array
         System.out.println(num[0]);
-        System.out.println(num.length);
+        System.out.println(num.length);                           // length of the array
 
         System.out.println("\n");
 
