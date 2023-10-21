@@ -4,9 +4,10 @@ public class Main {
         System.out.println(num[0]);
         num[0] = 7;
         System.out.println(num[0]);
+        System.out.println(num.length);
 
         System.out.println("\n");
-        
+
         int num1[] = new int[4];
         num1[0] = 5;
         num1[1] = 4;
